@@ -3,23 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C902952D2588DCC8007F9B31 /* SwiftUINavigationTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902952C2588DCC8007F9B31 /* SwiftUINavigationTutorialApp.swift */; };
-		C902952F2588DCC8007F9B31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902952E2588DCC8007F9B31 /* ContentView.swift */; };
 		C90295312588DCC9007F9B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90295302588DCC9007F9B31 /* Assets.xcassets */; };
 		C90295342588DCC9007F9B31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90295332588DCC9007F9B31 /* Preview Assets.xcassets */; };
+		C902953E2588DD26007F9B31 /* NavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = C902953D2588DD26007F9B31 /* NavigationKit */; };
+		C902954A2588DD38007F9B31 /* Tab1RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295422588DD37007F9B31 /* Tab1RootView.swift */; };
+		C902954B2588DD38007F9B31 /* Tab2SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295432588DD37007F9B31 /* Tab2SecondView.swift */; };
+		C902954C2588DD38007F9B31 /* Tab2ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295442588DD37007F9B31 /* Tab2ThirdView.swift */; };
+		C902954D2588DD38007F9B31 /* Tab2RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295452588DD37007F9B31 /* Tab2RootView.swift */; };
+		C902954E2588DD38007F9B31 /* Tab1FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295462588DD37007F9B31 /* Tab1FourthView.swift */; };
+		C902954F2588DD38007F9B31 /* Tab2FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295472588DD37007F9B31 /* Tab2FourthView.swift */; };
+		C90295502588DD38007F9B31 /* Tab1ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295482588DD37007F9B31 /* Tab1ThirdView.swift */; };
+		C90295512588DD38007F9B31 /* Tab1SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90295492588DD38007F9B31 /* Tab1SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C90295292588DCC8007F9B31 /* SwiftUINavigationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C902952C2588DCC8007F9B31 /* SwiftUINavigationTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationTutorialApp.swift; sourceTree = "<group>"; };
-		C902952E2588DCC8007F9B31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C90295302588DCC9007F9B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90295332588DCC9007F9B31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C90295352588DCC9007F9B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90295422588DD37007F9B31 /* Tab1RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1RootView.swift; sourceTree = "<group>"; };
+		C90295432588DD37007F9B31 /* Tab2SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2SecondView.swift; sourceTree = "<group>"; };
+		C90295442588DD37007F9B31 /* Tab2ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ThirdView.swift; sourceTree = "<group>"; };
+		C90295452588DD37007F9B31 /* Tab2RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2RootView.swift; sourceTree = "<group>"; };
+		C90295462588DD37007F9B31 /* Tab1FourthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1FourthView.swift; sourceTree = "<group>"; };
+		C90295472588DD37007F9B31 /* Tab2FourthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2FourthView.swift; sourceTree = "<group>"; };
+		C90295482588DD37007F9B31 /* Tab1ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ThirdView.swift; sourceTree = "<group>"; };
+		C90295492588DD38007F9B31 /* Tab1SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C902953E2588DD26007F9B31 /* NavigationKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +68,8 @@
 		C902952B2588DCC8007F9B31 /* SwiftUINavigationTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				C90295402588DD2B007F9B31 /* Views */,
 				C902952C2588DCC8007F9B31 /* SwiftUINavigationTutorialApp.swift */,
-				C902952E2588DCC8007F9B31 /* ContentView.swift */,
 				C90295302588DCC9007F9B31 /* Assets.xcassets */,
 				C90295352588DCC9007F9B31 /* Info.plist */,
 				C90295322588DCC9007F9B31 /* Preview Content */,
@@ -67,6 +83,21 @@
 				C90295332588DCC9007F9B31 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C90295402588DD2B007F9B31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C90295462588DD37007F9B31 /* Tab1FourthView.swift */,
+				C90295422588DD37007F9B31 /* Tab1RootView.swift */,
+				C90295492588DD38007F9B31 /* Tab1SecondView.swift */,
+				C90295482588DD37007F9B31 /* Tab1ThirdView.swift */,
+				C90295472588DD37007F9B31 /* Tab2FourthView.swift */,
+				C90295452588DD37007F9B31 /* Tab2RootView.swift */,
+				C90295432588DD37007F9B31 /* Tab2SecondView.swift */,
+				C90295442588DD37007F9B31 /* Tab2ThirdView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +116,9 @@
 			dependencies = (
 			);
 			name = SwiftUINavigationTutorial;
+			packageProductDependencies = (
+				C902953D2588DD26007F9B31 /* NavigationKit */,
+			);
 			productName = SwiftUINavigationTutorial;
 			productReference = C90295292588DCC8007F9B31 /* SwiftUINavigationTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +146,9 @@
 				Base,
 			);
 			mainGroup = C90295202588DCC8007F9B31;
+			packageReferences = (
+				C902953C2588DD26007F9B31 /* XCRemoteSwiftPackageReference "NavigationKit" */,
+			);
 			productRefGroup = C902952A2588DCC8007F9B31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C902952F2588DCC8007F9B31 /* ContentView.swift in Sources */,
+				C902954E2588DD38007F9B31 /* Tab1FourthView.swift in Sources */,
+				C902954D2588DD38007F9B31 /* Tab2RootView.swift in Sources */,
+				C90295502588DD38007F9B31 /* Tab1ThirdView.swift in Sources */,
+				C902954F2588DD38007F9B31 /* Tab2FourthView.swift in Sources */,
+				C902954A2588DD38007F9B31 /* Tab1RootView.swift in Sources */,
 				C902952D2588DCC8007F9B31 /* SwiftUINavigationTutorialApp.swift in Sources */,
+				C902954B2588DD38007F9B31 /* Tab2SecondView.swift in Sources */,
+				C90295512588DD38007F9B31 /* Tab1SecondView.swift in Sources */,
+				C902954C2588DD38007F9B31 /* Tab2ThirdView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C902953C2588DD26007F9B31 /* XCRemoteSwiftPackageReference "NavigationKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/NavigationKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C902953D2588DD26007F9B31 /* NavigationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C902953C2588DD26007F9B31 /* XCRemoteSwiftPackageReference "NavigationKit" */;
+			productName = NavigationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C90295212588DCC8007F9B31 /* Project object */;
 }
