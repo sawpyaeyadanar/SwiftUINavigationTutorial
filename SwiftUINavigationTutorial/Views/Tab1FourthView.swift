@@ -10,7 +10,7 @@ import SwiftUI
 struct Tab1FourthView: View {
     var body: some View {
         VStack(spacing: 12) {
-            Text("Dismiss").dismisses()
+            Text("Close the box").dismisses()
             Text("Dismiss to Root").dismissesToRoot()
             Spacer()
         }
